@@ -1,0 +1,28 @@
+.sidebarA{
+   display: block;
+   margin-top: 19.6%;
+   margin-left: 3%;
+   width: 10%;
+   position: absolute; 
+}
+
+.Ahref {
+    position: sticky;
+    display: block;
+    margin-bottom: 1.5rem; 
+    position: -webkit-sticky;
+}
+
+.vr {
+    height: 100px;
+    border-left: solid 2px #4ec6b6;
+    position: absolute;
+    top: 85%;
+    left: 4%;
+}
+
+.logoImg {
+    width: 34px;
+}
+
+

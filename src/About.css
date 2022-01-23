@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+.text-container{
+    left: 14%;
+    position: absolute;
+    width: 40%;
+    margin: 6% auto auto auto;
+    animation: about_animation 800ms ease-in;
+}
+
+
+.title_About{
+    font-size: 20px;
+}
+
+.title-main{
+    font-size: 30px;
+    color: #ccd6f6;
+}
+
+.line1 {
+    width: 50%;
+    height: 1px;
+    background: #4ec6b63d;
+    top:5%;
+    position: absolute;
+    left: 42%;
+}
+
+p {
+    margin-top: 2rem;
+    font-size: 18px;
+    color: #8791af;
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+}
+
+.img-container {
+    width: 40%;
+    background: #4ec6b6;
+    animation: about_img_animation 600ms ease-in;
+}
+
+.img-user{
+    border-radius: 5%;
+    width: 100%;
+    opacity: 55%;
+}
+.img-user:hover{
+    transition: 400ms;
+    opacity: 100%;
+}
+
+.Background {
+    border-radius: 5%;
+    position: absolute;
+    height: 42%;
+    width: 20%;
+    background: #09ceb4;
+    top: 31%;
+    right: 18%;
+}
+
+@keyframes about_animation {
+	0%{
+		transform: translateX(-70%);
+	}
+
+	100%{
+		transform: translateY(0%);
+	}
+}
+
+@keyframes about_img_animation {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

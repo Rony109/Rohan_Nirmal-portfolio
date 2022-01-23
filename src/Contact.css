@@ -1,0 +1,52 @@
+.Contact_container {
+    width: 50%;
+    text-align: center;
+    margin: 8rem auto auto auto;
+    animation: Contact_animation 800ms ease-in;
+}
+
+
+
+.contact_title {
+    font-size: 18px;
+}
+
+.big {
+    margin-top: 3rem;
+    font-size: 50px;
+    color: #ccd6f6;
+}
+
+.content{
+    font-family: 'Titillium Web'; 
+    color: #8791af;
+}
+
+.say-hello {
+    padding:1.2rem 0.5rem 1.2rem ;
+    width: 20%;
+    margin:3rem auto auto auto;
+    color: #09ceb4;
+    border: #09ceb4 3px solid;
+}
+
+.say-hello:hover {
+    background: #09ceb431;
+    color:#09ceb4 ;
+}
+
+.say-hello-link:hover {
+    color:#09ceb4 ;
+}
+
+@keyframes Contact_animation {
+    0%{
+		transform: translateY(30%);
+        opacity: 0%;
+	}
+
+	100%{
+		transform: translateY(0%);
+        opacity: 100%;
+	}
+}

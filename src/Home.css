@@ -1,0 +1,64 @@
+
+.container {
+    width: 70%;
+    margin: 10% auto auto 20rem;
+    animation: home_loader 700ms ease-in;
+}
+
+.name {
+    margin-top: 4rem;
+    font-size: 70px;
+    color: #ccd6f6;
+    line-height: 0px;
+}
+
+.intro1 {
+    margin-top: 5rem;
+    font-size: 36px;
+    line-height: 10px;
+    color: #8791af;
+}
+
+.intro2 {
+    font-size: 20px;
+    margin-top: 3rem;
+    color: #8791af;
+    font-weight: bolder;
+}
+.intro3 {
+    font-size: 20px;
+    color: #8791af;
+    font-weight: bolder;
+}
+
+strong{
+    color:#4ec6b6;
+}
+
+.textHolder{
+    font-family: 'Titillium Web';
+}
+
+a {
+    color: #ccd6f6;
+	text-decoration: none;
+}
+
+a:hover {
+    color:#4ec6b6;
+    transition: 700ms;
+}
+
+.title_Hi {
+    margin-bottom: 2rem;
+}
+
+@keyframes home_loader {
+    0%{
+        transform: translateY(-10%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+}
